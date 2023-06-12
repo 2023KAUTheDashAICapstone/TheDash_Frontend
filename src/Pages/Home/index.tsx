@@ -20,9 +20,6 @@ const Home = () => {
           >
             Hierachical
           </Algorithm>
-          <Algorithm onClick={() => navigate('/home/birch')} active={algorithm === 'birch'}>
-            Birch
-          </Algorithm>
           <Algorithm onClick={() => navigate('/home/spectral')} active={algorithm === 'spectral'}>
             Spectral
           </Algorithm>
