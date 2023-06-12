@@ -1,7 +1,6 @@
-import { useLocation, useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import Map from './Map'
 import { HomeContainer, SideBar, RightContainer, Logo, AlgorithmList, Algorithm } from './styles'
-import { useEffect } from 'react'
 
 const Home = () => {
   const navigate = useNavigate()

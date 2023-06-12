@@ -33,7 +33,7 @@ const homeObjTwo = {
   topLine: 'Discovering the best Algorithm',
   headLine: '4 개의 알고리즘 중 최적의 알고리즘 탐색',
   description:
-    'Get access to our exclusive app that allows you to discover new type of content with NFT.',
+    'Searching through more than 8 algorithms and came to an end with 4 best algorithms.',
   buttonLabel: 'Learn More',
   imgStart: true,
   img: aiImage,

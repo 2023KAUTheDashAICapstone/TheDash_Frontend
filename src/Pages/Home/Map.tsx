@@ -47,7 +47,9 @@ export default function Map({ algorithm }: MapProps) {
       const url = 'http://211.245.51.165:15000/kmeans'
       fetchData1(url)
     }
+    console.log('taskLength', Object.keys(taskList).length)
   }, [algorithm])
+
   useEffect(() => {
     const script = document.createElement('script')
     script.src =
@@ -56,7 +58,7 @@ export default function Map({ algorithm }: MapProps) {
 
     script.onload = () => {
       const map = new naver.maps.Map('map', {
-        center: new naver.maps.LatLng(35.1399034730192, 128.50650652599728),
+        center: new naver.maps.LatLng(35.113299, 128.4827749),
         zoom: 14,
       })
 
