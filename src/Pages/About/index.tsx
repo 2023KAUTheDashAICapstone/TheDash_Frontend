@@ -31,7 +31,7 @@ const homeObjTwo = {
   lightText: false,
   lightTextDesc: true,
   topLine: 'Discovering the best Algorithm',
-  headLine: '5 개의 알고리즘 중 최적의 알고리즘 탐색',
+  headLine: '4 개의 알고리즘 중 최적의 알고리즘 탐색',
   description:
     'Get access to our exclusive app that allows you to discover new type of content with NFT.',
   buttonLabel: 'Learn More',
