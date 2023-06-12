@@ -23,7 +23,7 @@ interface InfoProps {
   darkText: boolean
   description: string
   buttonLabel: string
-  img: string
+  img: any
   alt: string
   primary: boolean
   dark: boolean

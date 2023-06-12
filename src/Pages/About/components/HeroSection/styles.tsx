@@ -9,7 +9,6 @@ export const HeroContainer = styled.div`
   padding: 0 30px;
   height: 100vh;
   position: relative;
-  z-index: 1;
 
   :before {
     content: '';
@@ -31,7 +30,7 @@ export const HeroBg = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 `
 
 export const VideoBg = styled.video`
@@ -39,7 +38,6 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background: #232a34;
 `
 
 export const HeroContent = styled.div`

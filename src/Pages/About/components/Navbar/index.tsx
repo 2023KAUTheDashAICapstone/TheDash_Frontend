@@ -93,7 +93,7 @@ const Navbar = () => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavbtnLink to='/home'>Explore!</NavbtnLink>
+              <NavbtnLink to='/home/dbscan'>Explore!</NavbtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

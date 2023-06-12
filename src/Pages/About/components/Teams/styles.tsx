@@ -28,7 +28,7 @@ export const ServicesWrapper = styled.div`
 `
 
 export const ServicesCard = styled.div`
-  background: #fff;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -47,11 +47,14 @@ export const ServicesCard = styled.div`
   }
 `
 
-export const ServicesIcon = styled.div`
+export const ProfileImage = styled.div<{ imgUrl: string }>`
   height: 6.25rem;
   width: 6.25rem;
   border-radius: 50%;
-  background-color: #a0a0a0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url(${(props) => props.imgUrl});
   margin-bottom: 10px;
 `
 export const ServicesH1 = styled.h1`
