@@ -33,15 +33,6 @@ const Algorithms = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>BIRCH</ServicesH2>
-          <ServicesP>
-            데이터를 CF트리로 리프 항목을 재구성하며 정제하고 밀집된 말단 군집을 병합한다. 모든 리프
-            항목을 군집화하고, 선택적으로 군집화한 군집 중심을 시드로 사용하여 데이터 포인트를
-            재분배하고 새로운 군집을 형성합니다.
-          </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon3} />
           <ServicesH2>Spectral clustering</ServicesH2>
           <ServicesP>
             라플라시안 행렬 L을 계산하고, L의 가장 작은 k개의 고유값에 대해 고유 벡터를 계산합니다.
@@ -50,7 +41,7 @@ const Algorithms = () => {
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          <ServicesIcon src={Icon1} />
           <ServicesH2>K-MEANS</ServicesH2>
           <ServicesP>
             주어진 데이터를 k개의 클러스터로 묶는 알고리즘으로, 각 클러스터와 거리 차이의 분산을

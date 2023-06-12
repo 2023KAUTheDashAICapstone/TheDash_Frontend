@@ -5,16 +5,19 @@ export const ServicesContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 1.25rem 0;
+  padding: 20px 0;
   align-items: center;
   background: #010606;
 `
 
 export const ServicesWrapper = styled.div`
+  display: flex;
   max-width: 90%;
+  justify-content: center;
+  align-items: center;
   /* margin: 0 auto; */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 1rem;
   /* padding: 0 50px; */
@@ -33,10 +36,11 @@ export const ServicesCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   border-radius: 10px;
-  max-height: 340px;
+  min-height: 21.25rem;
+  width: 80%;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
