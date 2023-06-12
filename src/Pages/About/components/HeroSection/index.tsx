@@ -14,7 +14,6 @@ import { useNavigate } from 'react-router-dom'
 
 const HeroSection = () => {
   const navigate = useNavigate()
-  // const video = './drone.mp4'
   return (
     <HeroContainer id='home'>
       <HeroBg>
@@ -30,7 +29,7 @@ const HeroSection = () => {
         <HeroP>한국항공대학교 2023 산학협력 프로젝트</HeroP>
 
         <HeroBtnWrapper>
-          <Button onClick={() => navigate('/home')}>
+          <Button onClick={() => navigate('/home/dbscan')}>
             <span>Get started</span>
             <ArrowRight />
           </Button>
