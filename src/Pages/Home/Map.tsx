@@ -40,9 +40,6 @@ export default function Map({ algorithm }: MapProps) {
     } else if (algorithm === 'hierachical') {
       const url = 'http://211.245.51.165:15000/hierachical'
       fetchData1(url)
-    } else if (algorithm === 'birch') {
-      const url = 'http://211.245.51.165:15000/birch'
-      fetchData1(url)
     } else if (algorithm === 'spectral') {
       const url = 'http://211.245.51.165:15000/spectral'
       fetchData1(url)
